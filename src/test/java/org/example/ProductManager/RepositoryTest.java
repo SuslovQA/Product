@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 public class RepositoryTest {
     Repository repo = new Repository();
 
-    Product product1 = new Book(1, "Книга1", 110, "EugeneQA");
-    Product product2 = new Smartphone(2, "N70", 29_999, "Nokla");
-    Product product3 = new Book(3, "Книга2", 799, "EugeneDev");
+    Book product1 = new Book(1, "Книга1", 110, "EugeneQA");
+    Smartphone product2 = new Smartphone(2, "N70", 29_999, "Nokla");
+    Book product3 = new Book(3, "Книга2", 799, "EugeneDev");
 
 
     @Test

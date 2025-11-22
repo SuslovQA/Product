@@ -20,4 +20,15 @@ public class Book extends Product {
     public int getId() {
         return super.getId();
     }
+
+    @Override
+    public boolean matches(String search) {
+        if (super.matches(search)) {
+            return true;
+        }
+        if (getAuthor().contains(search)) {
+            return true;
+        }
+        return false;
+    }
 }
