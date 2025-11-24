@@ -22,4 +22,12 @@ public class ProductTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
+    @Test
+    public void shouldSearchByAuthorWithEmptyValue() {
+        boolean expected = false;
+        boolean actual = product1.matches(" ");
+
+        Assertions.assertEquals(expected, actual);
+    }
 }

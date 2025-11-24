@@ -30,20 +30,6 @@ public class ManagerTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-//    @Test
-//    public void shouldMatches() {
-//        boolean expected = true;
-//        boolean actual = manager.matches(product3, "Книга1");
-//
-//        Assertions.assertEquals(expected, actual);
-//    }
-//
-//    @Test
-//    public void shouldNotMatches() {
-//        boolean expected = false;
-//        boolean actual = manager.matches(product1, "Книга1");
-//    }
-
     @Test
     public void shouldSearchObject() {
 

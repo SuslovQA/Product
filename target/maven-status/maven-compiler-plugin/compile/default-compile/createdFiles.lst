@@ -1,0 +1,7 @@
+org\example\ProductManager\Book.class
+org\example\ProductManager\NotFoundException.class
+org\example\ProductManager\Smartphone.class
+org\example\ProductManager\Product.class
+org\example\ProductManager\Repository.class
+org\example\ProductManager\AlreadyExistException.class
+org\example\ProductManager\Manager.class
