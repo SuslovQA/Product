@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Product,org.example.ProductManager,Smartphone,4,30,0,4,2,10,1,6,1,4
+Product,org.example.ProductManager,AlreadyExistException,0,4,0,0,0,2,0,1,0,1
+Product,org.example.ProductManager,Book,4,30,0,4,2,10,1,6,1,4
+Product,org.example.ProductManager,Product,15,23,0,0,7,8,4,4,4,4
+Product,org.example.ProductManager,NotFoundException,0,4,0,0,0,2,0,1,0,1
+Product,org.example.ProductManager,Repository,0,130,0,14,0,25,0,12,0,5
+Product,org.example.ProductManager,Manager,0,67,0,6,0,14,0,6,0,3
